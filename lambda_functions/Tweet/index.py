@@ -45,7 +45,8 @@ def handler(event, context):
         'size': size,
         'bg': BACKGROUND,
         'radar_id': radar_id,
-        'block': True
+        'block': True,
+        'media_type': 'gif'
     }
 
     print('this will be the payload: {}'.format(json.dumps(payload)))
